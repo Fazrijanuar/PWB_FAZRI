@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>
+      Membuat Form Registrasi
+    </title>
+  </head>
+  <body>
+    <!--NAMA, TGL LAHIR, ALAMAT, KOTA, PEKERJAAN, JENIS KELAMIN, HOBBY-->
+    <form>
+      <h1 align="center"><font color="blueviolet">Free Registration</font></h1>
+      <pre>
+        Nama         : <input type="text" size="25" name="nama">
+        Tgl Lahir    : <input type="text" size="2" name="tgllahir">/<input type="text" size="2" name="tgllahir">/<input type="text" size="4" name="tgllahir">
+        Alamat       : <input type=”text” name=”alamat” size=50 maxlength=50 rows="3">
+        Kota         : <input type="text" size="10" name="kota">
+        Pekerjaan    : <select name="pekerjaan" size="1">
+                        <option value="Tani">Petani</option>
+                        <option value="Polisi">Polisi</option>
+                        <option value="Tentara">Tentara</option>
+                        <option value="PNS">PNS</option>
+                        <option value="Wiraswasta">Wiraswasta</option>
+                        <option value="Guru">Guru</option>
+        </select>
+        Jenis Kelamin: <input type="radio" name="jkel" value="Laki-Laki">Laki-Laki <input type="radio" name="jkel" value="Perempuan">Perempuan
+        Hobby        : <input type="checkbox" name="hobby" value="Reading">Reading
+                       <input type="checkbox" name="hobby" value="Sport">Sport
+                       <input type="checkbox" name="hobby" value="Singing">Singing
+                       <input type="checkbox" name="hobby" value="Traveling">Traveling
+                       <input type="button" value="kirim"> <input type="reset" value="cancel">
+      </pre>
+    </form>
+  </body>
+</html>
